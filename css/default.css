@@ -1,0 +1,12 @@
+.table {
+    display: table;
+    padding: 10px;
+}
+
+.table-cell {
+    display: table-cell;
+}
+
+.right {
+    text-align: right;
+}
