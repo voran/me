@@ -1,4 +1,28 @@
-age = new Date(new Date().getTime() - new Date(1989, 09, 15, 9).getTime());
+function getAge(fromdate, todate){
+    if(todate) todate= new Date(todate);
+    else todate= new Date();
+
+    var age= [], fromdate= new Date(fromdate),
+    y= [todate.getFullYear(), fromdate.getFullYear()],
+    ydiff= y[0]-y[1],
+    m= [todate.getMonth(), fromdate.getMonth()],
+    mdiff= m[0]-m[1],
+    d= [todate.getDate(), fromdate.getDate()],
+    ddiff= d[0]-d[1];
+
+    if(mdiff < 0 || (mdiff=== 0 && ddiff<0))--ydiff;
+    if(mdiff<0) mdiff+= 11;
+    if(ddiff<0){
+        fromdate.setMonth(m[1]+1, 0);
+        ddiff= fromdate.getDate()-d[1]+d[0];
+        --mdiff;
+    }
+    if(ydiff> 0) age.push(ydiff+ ' year'+(ydiff> 1? 's ':' '));
+    if(mdiff> 0) age.push(mdiff+ ' month'+(mdiff> 1? 's':''));
+    if(ddiff> 0) age.push(ddiff+ ' day'+(ddiff> 1? 's':''));
+    if(age.length>1) age.splice(age.length-1,0,' and ');    
+    return age.join('');
+}
 
 
-$("#age").html("Age: " + (age.getFullYear() - new Date(0).getFullYear()) + " years, " + (age.getMonth() + 1) + " months, " + age.getDate() + " days, " + age.getHours() + " hours");
+$("#age").html("Age: " + getAge("9/15/1989");
