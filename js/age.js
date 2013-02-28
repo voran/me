@@ -25,4 +25,4 @@ function getAge(fromdate, todate){
 }
 
 
-$("#age").html("Age: " + getAge("9/15/1989");
+$("#age").html("Age: " + getAge("9/15/1989"));
