@@ -11,7 +11,7 @@ function getAge(fromdate, todate){
     ddiff= d[0]-d[1];
 
     if(mdiff < 0 || (mdiff=== 0 && ddiff<0))--ydiff;
-    if(mdiff<0) mdiff+= 11;
+    if(mdiff<0) mdiff+= 12;
     if(ddiff<0){
         fromdate.setMonth(m[1]+1, 0);
         ddiff= fromdate.getDate()-d[1]+d[0];
