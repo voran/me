@@ -1,11 +1,6 @@
-.container {
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
-
 .table {
     display: table;
-    padding: 10px;
+    padding:  60px 10px 10px 10px;
 }
 
 .table-cell {
