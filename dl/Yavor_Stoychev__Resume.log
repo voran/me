@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.4.22)  25 APR 2013 13:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.4.22)  25 APR 2013 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,17 +931,17 @@ Overfull \hbox (28.7675pt too wide) has occurred while \output is active
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 
 Overfull \hbox (28.7675pt too wide) has occurred while \output is active
  []|[] 
  []
 
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
  (./Yavor_Stoychev__Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `Yavor_Stoychev__Resume.out' has not changed.
 
 (rerunfilecheck)             Checksum: AC74665AE695DE25AE4AF3710625CEB5;1525.
@@ -949,7 +949,7 @@ Package rerunfilecheck Info: File `Yavor_Stoychev__Resume.out' has not changed.
 Here is how much of TeX's memory you used:
  17088 strings out of 493488
  271310 string characters out of 3146892
- 379632 words of memory out of 3000000
+ 380632 words of memory out of 3000000
  20116 multiletter control sequences out of 15000+200000
  48370 words of font info for 55 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -963,7 +963,7 @@ e/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type
 1/public/lm/lmri9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmro10.pfb><
 /usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/f
 onts/type1/public/marvosym/marvosym.pfb>
-Output written on Yavor_Stoychev__Resume.pdf (2 pages, 238474 bytes).
+Output written on Yavor_Stoychev__Resume.pdf (2 pages, 238499 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
