@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.5.25)  17 JUN 2013 18:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.5.25)  17 JUN 2013 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -916,13 +916,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (/usr/share/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 71.
 
 (/usr/share/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/sl' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 70.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 71.
 
 Overfull \hbox (26.93433pt too wide) has occurred while \output is active
  []|[] 
@@ -931,27 +931,33 @@ Overfull \hbox (26.93433pt too wide) has occurred while \output is active
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
 
 Overfull \hbox (26.93433pt too wide) has occurred while \output is active
  []|[] 
  []
 
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (./Yavor_Stoychev__Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
-Package rerunfilecheck Info: File `Yavor_Stoychev__Resume.out' has not changed.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 
-(rerunfilecheck)             Checksum: BF244510A458E5CA8A044B6764E4A470;1621.
+
+Package rerunfilecheck Warning: File `Yavor_Stoychev__Resume.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Yavor_Stoychev__Resume.out':
+(rerunfilecheck)             Before: BF244510A458E5CA8A044B6764E4A470;1621
+(rerunfilecheck)             After:  8274D6566AF9D8099C07088968754054;1669.
  ) 
 Here is how much of TeX's memory you used:
- 17092 strings out of 493488
- 271346 string characters out of 3146892
+ 17090 strings out of 493488
+ 271328 string characters out of 3146892
  379632 words of memory out of 3000000
  20116 multiletter control sequences out of 15000+200000
- 48548 words of font info for 57 fonts, out of 3000000 for 9000
+ 48459 words of font info for 56 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,12n,49p,802b,420s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
@@ -963,7 +969,7 @@ e/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf-dist/fonts/type
 1/public/lm/lmri9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmro10.pfb><
 /usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/f
 onts/type1/public/marvosym/marvosym.pfb>
-Output written on Yavor_Stoychev__Resume.pdf (2 pages, 239203 bytes).
+Output written on Yavor_Stoychev__Resume.pdf (2 pages, 239265 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
