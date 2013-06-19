@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://stoychev.info/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://stoychev.info/dl/Yavor_Stoychev__Resume.pdf</loc>
+  <lastmod>2013-06-17T16:48:12+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://stoychev.info/projects.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://stoychev.info/publications.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://stoychev.info/x2.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://stoychev.info/dl/Stoychev_Yavor__Hydrofracking_in_Europe__Rights_Risks_and_Challenges.pdf</loc>
+  <lastmod>2013-03-16T20:42:37+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://stoychev.info/dl/Stoychev_Yavor__Determinants_of_new_Car_Prices_in_the_US.pdf</loc>
+  <lastmod>2013-03-16T20:42:37+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://stoychev.info/dl/Stoychev_Fischer_Schulz_Dimitrov__Gesture_Controlled_3D_Modelling_and_Animation_Interface.pdf</loc>
+  <lastmod>2013-03-17T13:59:25+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://stoychev.info/dl/Stoychev_Yavor__Thoughts_on_AI_Debates.pdf</loc>
+  <lastmod>2013-03-16T20:42:37+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://stoychev.info/dl/Stoychev_Yavor__An_Essay_on_Existentialism.pdf</loc>
+  <lastmod>2013-03-16T20:42:37+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>
