@@ -4,25 +4,25 @@ google.setOnLoadCallback(drawVisualization);
 
 function drawVisualization() {
   var data = google.visualization.arrayToDataTable([
-    ['Country', 'Relevance', {type: 'string', role: 'tooltip'}],
+    ['Country', 'Relevance'],
     ['Bogus', 0],
-    ['Austria', 1, 'Visited'],
-    ['Germany', 2, 'Lived'],
-    ['United States', 2, 'Lived'],
-    ['Czech Republic', 1, 'Visited'],
-    ['France', 1, 'Visited'],
-    ['Netherlands', 1, 'Visited'],
-    ['Norway', 1, 'Visited'],
-    ['Greece', 1, 'Visited'],
-    ['Bulgaria', 2, 'Born'],
-    ['Italy', 1, 'Visited'],
-    ['Slovenia', 1, 'Visited'],
-    ['Slovakia', 1, 'Visited'],
-    ['Croatia', 1, 'Visited'],
-    ['Belgium', 1, 'Visited'],
-    ['Serbia', 1, 'Visited'],
-    ['Hungary', 1, 'Visited'],
-    ['Poland', 1, 'Visited']
+    ['Austria', {v: 1, f: 'Visited'}],
+    ['Germany', {v: 2, f: 'Lived'}],
+    ['United States', {v: 2, f: 'Lived'}],
+    ['Czech Republic', {v: 1, f: 'Visited'}],
+    ['France', {v: 1, f: 'Visited'}],
+    ['Netherlands', {v: 1, f: 'Visited'}],
+    ['Norway', {v: 1, f: 'Visited'}],
+    ['Greece', {v: 1, f: 'Visited'}],
+    ['Bulgaria', {v: 2, f: 'Born'}],
+    ['Italy', {v: 1, f: 'Visited'}],
+    ['Slovenia', {v: 1, f: 'Visited'}],
+    ['Slovakia', {v: 1, f: 'Visited'}],
+    ['Croatia', {v: 1, f: 'Visited'}],
+    ['Belgium', {v: 1, f: 'Visited'}],
+    ['Serbia', {v: 1, f: 'Visited'}],
+    ['Hungary', {v: 1, f: 'Visited'}],
+    ['Poland', {v: 1, f: 'Visited'}]
   ]);
 
   var geochart = new google.visualization.GeoChart(document.getElementById('visualization'));
