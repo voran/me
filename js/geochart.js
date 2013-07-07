@@ -4,7 +4,7 @@ google.setOnLoadCallback(drawVisualization);
 
 function drawVisualization() {
   var data = google.visualization.arrayToDataTable([
-    ['Country', 'Value', {role: 'tooltip'}],
+    ['Country', 'Value'],
     ['Austria', 1, 'Visited'],
     ['Germany', 2, 'Lived'],
     ['United States', 2, 'Lived'],
@@ -23,6 +23,8 @@ function drawVisualization() {
     ['Hungary', 1, 'Visited'],
     ['Poland', 1, 'Visited']
   ]);
+  
+  data.setColumnProperty(3, 'role', 'tooltip');
 
   var geochart = new google.visualization.GeoChart(document.getElementById('visualization'));
   geochart.draw(data, {width: 1280, height: 720, colorAxis: {minValue: 1, maxValue: 2, colors: ['#4FBF43','#4381BF']}});
