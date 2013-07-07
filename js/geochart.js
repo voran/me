@@ -4,7 +4,8 @@ google.setOnLoadCallback(drawVisualization);
 
 function drawVisualization() {
   var data = google.visualization.arrayToDataTable([
-    ['Country', 'Relevance'],
+    ['Country', 'Relationship'],
+    ['Bogus', 0],
     ['Austria', {v: 1, f: 'Visited'}],
     ['Germany', {v: 2, f: 'Lived'}],
     ['United States', {v: 2, f: 'Lived'}],
