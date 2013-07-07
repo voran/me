@@ -5,6 +5,7 @@ google.setOnLoadCallback(drawVisualization);
 function drawVisualization() {
   var data = google.visualization.arrayToDataTable([
     ['Country', 'Relevance', {type: 'string', role: 'tooltip'}],
+    ['Bogus', 0],
     ['Austria', 1, 'Visited'],
     ['Germany', 2, 'Lived'],
     ['United States', 2, 'Lived'],
