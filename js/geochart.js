@@ -4,24 +4,24 @@ google.setOnLoadCallback(drawVisualization);
 
 function drawVisualization() {
   var data = google.visualization.arrayToDataTable([
-    ['Country', 'Time Factor'],
-    ['Austria', 1],
-    ['Germany', 2],
-    ['United States', 2],
-    ['Czech Republic', 1],
-    ['France', 1],
-    ['Netherlands', 1],
-    ['Norway', 1],
-    ['Greece', 1],
-    ['Bulgaria', 2],
-    ['Italy', 1],
-    ['Slovenia', 1],
-    ['Slovakia', 1],
-    ['Croatia', 1],
-    ['Belgium', 1],
-    ['Serbia', 1],
-    ['Hungary', 1],
-    ['Poland', 1]
+    ['Country', 'Value', role: 'tooltip'],
+    ['Austria', 1, 'Visited'],
+    ['Germany', 2, 'Lived'],
+    ['United States', 2, 'Lived'],
+    ['Czech Republic', 1, 'Visited'],
+    ['France', 1, 'Visited'],
+    ['Netherlands', 1, 'Visited'],
+    ['Norway', 1, 'Visited'],
+    ['Greece', 1, 'Visited'],
+    ['Bulgaria', 2, 'Born'],
+    ['Italy', 1, 'Visited'],
+    ['Slovenia', 1, 'Visited'],
+    ['Slovakia', 1, 'Visited'],
+    ['Croatia', 1, 'Visited'],
+    ['Belgium', 1, 'Visited'],
+    ['Serbia', 1, 'Visited'],
+    ['Hungary', 1, 'Visited'],
+    ['Poland', 1, 'Visited']
   ]);
 
   var geochart = new google.visualization.GeoChart(document.getElementById('visualization'));
