@@ -26,5 +26,5 @@ function drawVisualization() {
   ]);
 
   var geochart = new google.visualization.GeoChart(document.getElementById('visualization'));
-  geochart.draw(data, {width: 1280, height: 720, colorAxis: {minValue: 1, maxValue: 2, colors: ['#4FBF43','#4381BF']}});
+  geochart.draw(data, {width: 1280, height: 720, colorAxis: {minValue: 1, maxValue: 2, colors: ['#4FBF43','#4381BF']}, legend: 'none'});
 }
