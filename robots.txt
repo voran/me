@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: http://stoychev.bg/sitemap.xml
