@@ -1,6 +1,5 @@
 % document properties
 \documentclass[10pt,a4paper]{moderncv}
-\footskip 45pt
 
 % theme
 \moderncvtheme[blue]{casual}
@@ -11,33 +10,31 @@
 \usepackage[none]{hyphenat} 
 
 % adjust the page margins
-\usepackage[scale=0.9]{geometry}
+\usepackage[scale=0.85, left=1cm, right=1cm]{geometry}
 \setlength{\hintscolumnwidth}{3.5cm}						% if you want to change the width of the column with the dates
-%\AtBeginDocument{\setlength{\maketitlenamewidth}{2cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\footskip 60pt
 \AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 
 
 % personal data
 \firstname{Yavor}
 \familyname{Stoychev}  
-\address{37 Shipchenski Prohod Blvd vh. B ap. 39}{Sofia 1111, Bulgaria}
-\mobile{(+359) 886 16 8983}
-\phone{(+359 2) 873 4717}
+\address{224 Pontius Ave N Apt 542}{Seattle, WA 98109, USA}
+\mobile{(+1) 585 766 7308}
+\phone{(+359) 886 16 8983}
 \email{stoychev.yavor@gmail.com} 
 \homepage{yavor.stoychev.bg}
+\social[linkedin]{ystoychev}
+\social[github]{voran}
 \extrainfo{Last updated on \today. For updates, please visit my website. References available upon request.}
-%\photo[64pt][0.4pt]{picture}                         % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
 %\quote{Some quote (optional)}                 % optional, remove the line if not wanted
 
-
 \nopagenumbers{}
-
 
 \begin{document}
 \maketitle
 
 \section{Education}
-%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
 \cventry{Aug 2008 - Dec 2012}{Bachelor of Arts in Computer Science, Economics}{American University in Bulgaria}{Blagoevgrad, Bulgaria}{\textit{3.49/4}}{Minor in Mathematics. Dean's List for Fall 2008.}
 \cventry{Aug 2011 - May 2012}{Bulgarian Young Leaders Program}{Rochester Institute of Technology}{Rochester, NY}{\textit{3.73/4}}{Dean's List for the duration of studies. Took courses in Economics, 
 Computer Science, and Mathematics.}
@@ -45,13 +42,14 @@ Computer Science, and Mathematics.}
 \cventry{Sep 2003 - May 2008}{High School Diploma}{First English Language School}{Sofia, Bulgaria}{\textit{5.75/6}}{Certificate of Excellence.}
 
 \section{Experience}
-\cventry{Jun 2013 - }{Senior Software Developer}{Transmetrics}{Sofia, Bulgaria}{}{Developing an innovative IT product, which allows shipping companies to gain a critical few \% of capacity utilization, by finding and fixing the biggest problems first. I am leading the development of the user interface using Java Server Faces, HTML, and JavaScript.}
+\cventry{Oct 2013 - }{Software Development Engineer}{Amazon.com}{Seattle, WA, United States}{}{Working with the Global Supply Optimization team to develop enterpirse-grade, highly scalable systems that optimize Amazon's supply chain and save its customers millions of dollars worth of shipping costs. }
+\cventry{Jun 2013 - Sep 2013}{Senior Software Developer}{Transmetrics}{Sofia, Bulgaria}{}{Developing an innovative IT product, which allows shipping companies to gain a critical few \% of capacity utilization, by finding and fixing the biggest problems first. I am leading the development of the user interface using Java Server Faces, HTML, and JavaScript.}
 \cventry{Sep 2012 - Feb 2013}{Software Development Engineer Intern}{Amazon.com}{Seattle, WA, United States}{}{Developed a system for monitoring inventory shuffles in Java, HTML5, and JavaScript. The system receives input from downstream systems and records relevant data in a SQL database. This data is then analyzed and the resulting costs or savings are calculated and displayed on a web portal.}
 
 \section{Courses}
-\cvline{Computer Science}{Software Development Using C++ (Placement Test), Fundamentals of Programming Languages, Database Systems, Assembly Language Programming, Computer Architecture, Object Oriented Languages, Fundamental Data Structures, Software Engineering, Algorithms, Advanced Database Models, Cyber Defense Techniques, User Interface Engineering, Information Security, Data Warehousing and Data Mining, Senior Project I}
+\cvline{Computer Science}{Software Development Using C++, Fundamentals of Programming Languages, Database Systems, Assembly Language Programming, Computer Architecture, Object Oriented Languages, Fundamental Data Structures, Software Engineering, Algorithms, Advanced Database Models, Cyber Defense Techniques, User Interface Engineering, Information Security, Data Warehousing and Data Mining}
 \cvline{Economics}{Principles of Macroeconomics, Principles of Microeconomics, Money and Banking, International Trade, International Finance, Quantitative Methods in Economics, Intermediate Macroeconomics, Intermediate Microeconomics, Econometrics, Economic Forecasting, Natural Resource Economics, Comparative Economic Systems}
-\cvline{Mathematics}{Elementary Linear Algebra and Analytical Geometry, Calculus I - III, Introduction to Differential Equations, Numerical Analysis}
+\cvline{Mathematics}{Elementary Linear Algebra and Analytical Geometry, Calculus I - III, Differential Equations, Numerical Analysis}
 
 \section{Senior Project: Computer Science}
 \cvline{Title}{\emph{TAGS: A Graph-based Social Network}}
@@ -59,16 +57,14 @@ Computer Science, and Mathematics.}
 \cvline{Description}{\small An extensible social network framework implemented in Java using the Neo4j graph database.} 
 
 \section{Selected Projects: Computer Science}
-\cvline{Ruby on Rails}{Books on Rails: A next-generation library management system}
+\cvline{Ruby on Rails, JS}{Books on Rails: A next-generation library management system}
 \cvline{C++}{A student database with a command-line interface backed by a Binary Search Tree}
 \cvline{C\#}{A simple sudoku solver}
-\cvline{PHP, SQL, HTML, JS}{Database Explorer: A web-based tool for database management}
+\cvline{PHP, SQL, HTML}{Database Explorer: A web-based tool for database management}
 \cvline{Python, GTK}{Sharescanner: A tool for indexing and downloading files from Samba shares}
 \cvline{Assembly, C}{An application for encrypting and decrypting text using the XOR operator}
 \cvline{UML, Teamwork}{Lead a team of four to design an interactive racing game written in Java}
 \cvline{UML, Teamwork}{Worked in a team of four to design a touch-based 3D modeling application based on Blender}
-
-\newpage
 
 \section{Papers: Economics}
 \cvline{2012}{Stoychev, Yavor. Determinants of New Car Prices in the U.S. [Economic Forecasting]}
@@ -95,12 +91,9 @@ Computer Science, and Mathematics.}
 
 \section{Selected Activities}
 \cvline{2012 - Present}{Member, Association of Bulgarian Leaders and Entrepreneurs}
-\cvline{2011 - 2012}{Member, RIT Linux Users Group}
 \cvline{2011 - 2012}{Member, Free and Open Source Group at RIT}
 \cvline{2009 - 2011}{Member, Freakonomics Club at AUBG}
-\cvline{2008 - Present}{Senior Member, Computer Science Student Union at AUBG}
-\cvline{2004 - Present}{Member, Astronomy Association Sofia}
-\cvline{2003 - 2005}{Member, Physics Society  First English Language School Sofia}
+\cvline{2008 - 2012}{Member, Computer Science Student Union at AUBG}
 
 \section{Selected Achievements}
 \cvline{2012}{Certificate, American Institute on Political and Economic Systems in Prague, Czech Republic}
@@ -110,10 +103,8 @@ Computer Science, and Mathematics.}
 \cvline{2010}{Selected for Erasmus Exchange at Otto-von-Guericke University for Spring 2011}
 \cvline{2010}{America for Bulgaria Foundation Scholarship}
 \cvline{2009}{Lou Hill Davidson and Ralph Davidson Scholarship}
-\cvline{2008}{Certificate of Merit for High Overall Grades in the First English Language School}
 \cvline{2008}{Certificate for Participation, 50th Anniversary Concert of the First English Language School}
 \cvline{2008}{Certificate of Merit for Contributions to the School Brass Band}
-\cvline{2007}{Certificate of Merit for Excellent Performance in the Melpomene Drama Contest}
 \cvline{2006}{Prize, "Physics through my Eyes" Student Conference in Yambol, Bulgaria}
 
 \section{Hobbies and Interests}
