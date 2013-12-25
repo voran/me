@@ -27,7 +27,7 @@ html, body {
 }
 
 #me {
-   background: url('/img/me.jpg') no-repeat center center fixed;
+   background: url('../img/me.jpg') no-repeat center center fixed;
    background-size: cover;
 }
 
@@ -36,7 +36,7 @@ html, body {
 }
 
 #bio {
-   background: url('/img/bio.jpg') no-repeat center center fixed;
+   background: url('../img/bio.jpg') no-repeat center center fixed;
    background-size: cover;
 }
 
@@ -46,7 +46,7 @@ html, body {
 
 
 #work {
-   background: url('/img/work.jpg') no-repeat center center fixed;
+   background: url('../img/work.jpg') no-repeat center center fixed;
    background-size: cover;
 }
 
@@ -55,7 +55,7 @@ html, body {
 }
 
 #education {
-   background: url('/img/education.jpg') no-repeat center center fixed;
+   background: url('../img/education.jpg') no-repeat center center fixed;
    background-size: cover;
 }
 
@@ -64,7 +64,7 @@ html, body {
 }
 
 #interests {
-   background: url('/img/interests.jpg') no-repeat center center fixed;
+   background: url('../img/interests.jpg') no-repeat center center fixed;
    background-size: cover;
 }
 
