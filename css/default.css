@@ -1,6 +1,12 @@
+
+
+html, body {
+    height: 100%;
+}
+
 #main {
-    padding-top: 60px;
-    padding-bottom: 40px;
+    height: 100%;
+    padding-top:40px;
 }
 
 .table {
@@ -12,6 +18,66 @@
     display: table-cell;
 }
 
-.right {
-    text-align: right;
+.feature {
+    border-radius: 5pt;
+}
+
+.feature p {
+    font-size: 120%;
+}
+
+#me {
+   background: url('/img/me.jpg') no-repeat center center fixed;
+   background-size: cover;
+}
+
+#me .feature {
+   background-color:rgba(255, 255, 255, 0.3);
+}
+
+#bio {
+   background: url('/img/bio.jpg') no-repeat center center fixed;
+   background-size: cover;
+}
+
+#bio .feature {
+   background-color:rgba(255, 255, 255, 0.6);
+}
+
+
+#work {
+   background: url('/img/work.jpg') no-repeat center center fixed;
+   background-size: cover;
+}
+
+#work .feature {
+    background-color:rgba(255, 255, 255, 0.7);
+}
+
+#education {
+   background: url('/img/education.jpg') no-repeat center center fixed;
+   background-size: cover;
+}
+
+#education .feature {
+   background-color:rgba(0, 0, 0, 0.7);
+}
+
+#interests {
+   background: url('/img/interests.jpg') no-repeat center center fixed;
+   background-size: cover;
+}
+
+#interests .feature {
+   background-color:rgba(0, 0, 0, 0.7);
+}
+
+.section {
+    height: 100%;
+    position: relative;
+    padding: 50px;
+}
+
+.transparent {
+  background-color: transparent;
 }

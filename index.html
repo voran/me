@@ -9,23 +9,20 @@
     </head>
     <body>
 
-        
     <!--# include file="includes/header.html" -->
-
-    <div id="main" class="container">
-        <div class="jumbotron table">
-            <div class="table-cell">
-                <h1>Hello, world!</h1>
-                <br/>
-                <p>This is my new website.</p>
-            </div>
-            <div class="table-cell right">
-                <img alt="me" itemprop="photo" src="img/me.jpg"/>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col col-lg-6">
+    <div id="main">
+        <div id="me" class="section">
+            <div class="col-md-4 feature">
+                <h1>Yavor Stoychev</h1>
+                <h3>Software Engineer & Entrepreneur</h3>
+                
+                <p>
+                    Hello and welcome to my website.
+                </p>
+            </div><!--/feature -->
+        </div><!--/section-->
+        <div id="bio" class="section">
+            <div class="col-md-5 feature">
                 <h2>Bio</h2>
                 <p>
                     I was born in 
@@ -39,9 +36,13 @@
                     I love hiking, camping, skiing, and swimming.
                     I have travelled to many places in the United States and Europe, and I will travel to many more whenever I get the chance.
                 </p>
-            </div><!--/col col-lg-6-->
-            <div class="col col-lg-6">
-                <h2>Work</h2>
+            </div><!--/feature -->
+        </div><!--/section-->
+        
+        
+        <div id="work" class="section">
+              <div class="col-md-5 feature">
+               <h2>Work</h2>
                 <p>
                     I provide efficient solutions to real-world problems. I use bleeding edge 
                     software for my personal projects and infrastructure, which enables me to keep up with emerging technologies. 
@@ -54,12 +55,11 @@
                      
 
                 </p>
-            </div><!--/col col-lg-6-->
-            
-        </div>
-        <div class="row">
-           
-            <div class="col col-lg-6">
+              </div><!--/feature-->
+        </div><!--/section-->
+        
+        <div id="education" class="section">
+            <div class="col-md-5 text-muted feature">
                 <h2>Education</h2>
                 <p>
                     I hold a Bachelor of Arts degree in Computer Science and Economics with a minor in Math from the 
@@ -85,9 +85,12 @@
                         </span>
                          where I received several awards for my piano playing.
                 </p>
-            </div><!--/col col-lg-6-->
-
-            <div class="col col-lg-6">
+            </div><!--/feature -->
+        </div><!--/section-->
+        
+        
+        <div id="interests" class="section">
+            <div class="col-md-offset-6 col-md-6 text-muted feature">
                 <h2>Interests</h2>
                 <p>
                     My interests in Computer Science are in the areas of Operating Systems, Algorithms, and Distributed Systems.
@@ -100,15 +103,9 @@
                     I believe that the economy needs some regulation, because competition is *not* perfect in the real world.
                     There is no perfect information. Most markets "suffer" from economies of scale.
                 </p>
-            </div><!--/col col-lg-6-->
-
-        </div><!--/row-->
-
-        <hr>
-        
-        <!--# include file="includes/footer.html" -->
-
-    </div><!--/container-->
+            </div><!--/feature -->
+        </div><!--/section-->
+        </div>
         <!--# include file="includes/scripts.html" -->
         <script src="js/age.js"></script>
     </body>
