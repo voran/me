@@ -7,29 +7,29 @@
 
 <script>
 var data = [
-    ['Country', 'Relationship'],
-    ['Austria', {v: 1, f: 'Visited'}],
-    ['Germany', {v: 2, f: 'Lived'}],
-    ['United States', {v: 2, f: 'Lived'}],
-    ['Czech Republic', {v: 1, f: 'Visited'}],
-    ['France', {v: 1, f: 'Visited'}],
-    ['Netherlands', {v: 1, f: 'Visited'}],
-    ['Norway', {v: 1, f: 'Visited'}],
-    ['Greece', {v: 1, f: 'Visited'}],
-    ['Bulgaria', {v: 2, f: 'Born'}],
-    ['Italy', {v: 1, f: 'Visited'}],
-    ['Slovenia', {v: 1, f: 'Visited'}],
-    ['Slovakia', {v: 1, f: 'Visited'}],
-    ['Croatia', {v: 1, f: 'Visited'}],
-    ['Belgium', {v: 1, f: 'Visited'}],
-    ['Serbia', {v: 1, f: 'Visited'}],
-    ['Hungary', {v: 1, f: 'Visited'}],
-    ['Poland', {v: 1, f: 'Visited'}]
+    ['Country', 'Highlights'],
+    ['Austria', {v: 3, f: 'Salzburg, Vienna'}],
+    ['Germany', {v: 4, f: 'Berlin, Magdeburg, Oederan, Freiberg, Hamburg, Hannover, Ulm, Heidelberg, Alps'}],
+    ['United States', {v: 5, f: 'Boston, Niagara Falls, Chicago, Mackinac Island, Adirondack, Yellowstone, Seattle, San Francisco, Grand Canyon, Yosemite, Seqouya, Olympic'}],
+    ['Czech Republic', {v: 2, f: 'Prague, Brno, Karlstejn'}],
+    ['France', {v: 1, f: 'Strasbourg, Paris'}],
+    ['Netherlands', {v: 1, f: 'Leiden, Amsterdam, Rotterdam'}],
+    ['Norway', {v: 1, f: 'Oslo, Melbu, Stockmarknes'}],
+    ['Greece', {v: 1, f: 'Drama'}],
+    ['Bulgaria', {v: 10, f: 'I was born here!'}],
+    ['Italy', {v: 1, f: 'Veince'}],
+    ['Slovenia', {v: 1, f: 'Transit'}],
+    ['Slovakia', {v: 1, f: 'Bratislava'}],
+    ['Croatia', {v: 1, f: 'Transit'}],
+    ['Belgium', {v: 1, f: 'Brussels'}],
+    ['Serbia', {v: 1, f: 'Belgrade'}],
+    ['Hungary', {v: 2, f: 'Mezőkövesd'}],
+    ['Poland', {v: 2, f: 'Warsaw, Krakow'}]
 ];
 
 function drawVisualization() {
     geochart = new google.visualization.GeoChart(document.getElementById('visualization'));
-    geochart.draw(google.visualization.arrayToDataTable(data), {width: $("#main").width(), height: $("#main").height(), colorAxis: {minValue: 1, maxValue: 2, colors: ['#4FBF43', '#4381BF']}, legend: 'none'});
+    geochart.draw(google.visualization.arrayToDataTable(data), {width: $("#main").width(), height: $("#main").height(), colorAxis: {minValue: 1, maxValue: 10, colors: ['#BEF0A1', '#11BF1D']}, legend: 'none'});
 }
 
 $(document).ready(function () {
