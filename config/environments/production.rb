@@ -29,6 +29,9 @@ Me::Application.configure do
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
 
+  # fix missing glyphicons, bootstrap-sass-(rails) version 3.2 - 3.3
+  # config.assets.precompile += %w( .svg .eot .woff .ttf )
+
   # Generate digests for assets URLs.
   config.assets.digest = true
 
