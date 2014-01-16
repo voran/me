@@ -54,8 +54,8 @@ module Me
       :domain => "example.com",
       :authentication => "plain",
       :enable_starttls_auto => true,
-      :user_name => "stoychev.yavor@gmail.com",
-      :password => "yks15208829",
+      :user_name => "yavor.mailer@gmail.com",
+      :password => "pokemona",
       :enable_starttls_auto => true
     }
   end
