@@ -42,7 +42,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'bootstrap-sass-rails',' ~> 3.0.2.1'
+gem 'bootstrap-sass'
 
 gem 'google-analytics-rails'
 
@@ -50,3 +50,5 @@ gem 'blueimp-gallery'
 
 # active links in navbar
 gem 'active_link_to'
+
+gem 'thin'

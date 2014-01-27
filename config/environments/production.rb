@@ -11,7 +11,7 @@ Me::Application.configure do
   config.eager_load = true
 
   # Full error reports are disabled and caching is turned on.
-  config.consider_all_requests_local       = false
+  config.consider_all_requests_local       = true
   config.action_controller.perform_caching = true
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
@@ -30,7 +30,7 @@ Me::Application.configure do
   config.assets.compile = false
 
   # fix missing glyphicons, bootstrap-sass-(rails) version 3.2 - 3.3
-  # config.assets.precompile += %w( .svg .eot .woff .ttf )
+  config.assets.precompile += %w( .svg .eot .woff .ttf )
 
   # Generate digests for assets URLs.
   config.assets.digest = true
