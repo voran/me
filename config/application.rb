@@ -29,17 +29,18 @@ module Me
     
     config.meta = {
       :description => {
-        :index => """A Software Engineer and Entrepreneur from Sofia, Bulgaria and a Member of the Association of Bulgarian Leaders and Entrepreneurs""",
-        :projects => """A select list of projects Yavor Stoychev has been working on.""",
-        :publications => """A select list of publications Yavor Stoychev has written in the fields of Economics, Computer Science and Phoilosophy""",
-        :achievements => """A select list of achievements Yavor Stoychev has earned in various fields"""
-       
+        "index" => """A Software Engineer and Entrepreneur from Sofia, Bulgaria and a Member of the Association of Bulgarian Leaders and Entrepreneurs""",
+        "projects" => """Some of the projects Yavor Stoychev has been working on.""",
+        "publications" => """A select list of publications Yavor Stoychev has written in the fields of Economics, Computer Science and Phoilosophy""",
+        "achievements" => """A list of notable achievements Yavor Stoychev has earned in various disciplines""",
+        "travels" => """Places Yavor Stoychev has visited so far"""
       }, :keywords => {
-        :index => """Yavor Stoychev, Явор Стойчев, Software Engineering, American University in Bulgaria, AUBG,
+        "index" => """Yavor Stoychev, Явор Стойчев, Software Engineering, American University in Bulgaria, AUBG,
           Association of Bulgarian Leaders and Entrepreneurs, ABLE, Rochester Institute of Technology, RIT""",
-        :projects => """Books on Rails, TAGS, Tiny Rails Gallery, Share Scanner, Yavor Stoychev, Явор Стойчев, Projects, Java, Python, Ruby on Rails""",
-        :publications => """Yavor Stoychev, Явор Стойчев, Publications, Economic Forecasting, Artificial Intelligence, Economic Policy""",
-        :achievements => """Yavor Stoychev, Явор Стойчев, Awards, Achievements, Piano, ACM, English, Physics, Computer Science, Economics"""
+        "projects" => """Books on Rails, TAGS, Tiny Rails Gallery, Share Scanner, Yavor Stoychev, Явор Стойчев, Projects, Java, Python, Ruby on Rails""",
+        "publications" => """Yavor Stoychev, Явор Стойчев, Publications, Economic Forecasting, Artificial Intelligence, Economic Policy""",
+        "achievements" => """Yavor Stoychev, Явор Стойчев, Awards, Achievements, Recognitions, Piano, ACM, English, Physics, Computer Science, Economics""",
+        "travels" => """travel, exploration, interrail, Europe, Asia, North America"""
       }
     }
     
