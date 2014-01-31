@@ -1,11 +1,9 @@
-
 <div id="main">
     <div class="col-md-2">
-        <br/>
-        <br/>
         <nav id="year-nav">
             <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="#2012">2012</a></li>
+                <li class="active"><a href="#2013">2013</a></li>
+                <li><a href="#2012">2012</a></li>
                 <li><a href="#2011">2011</a></li>
                 <li class="disabled"><a class="text-center">...</a></li>
                 <li><a href="#2009">2009</a></li>
@@ -29,6 +27,18 @@
             </div>
         </div>
         <div class="preview">
+        <h1 id="2013">2013</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-offset-4 col-md-4 text-center">
+                <a href="img/achievements/2013/ml-stanford.png" target="_blank">
+                    <img class="img-responsive img-rounded no-margin" alt="BYLP" src="img/achievements/2013/ml-stanford-thumb.png"/>
+                </a>
+                <h4>Machine Learning Online Course Statement of Accomplishment, Stanford University</h4>
+            </div><!--/col-md-6-->
+        </div><!--/row-->
+            
+            
         <h1 id="2012">2012</h1>
         <hr>
         <div class="row">
@@ -192,6 +202,6 @@
 <script>
 $(document).ready(function () {
     $('#year-nav').affix();
-    $('body').scrollspy({ target: '#year-nav' });
+    $('body').scrollspy({ target: '#year-nav', offset:50 });
 });
 </script>
