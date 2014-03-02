@@ -33,7 +33,7 @@ module Me
         "projects" => """Some of the projects Yavor Stoychev has been working on.""",
         "publications" => """A select list of publications Yavor Stoychev has written in the fields of Economics, Computer Science and Phoilosophy""",
         "achievements" => """A list of notable achievements Yavor Stoychev has earned in various disciplines""",
-        "travels" => """Places Yavor Stoychev has visited so far"""
+        "travels" => """Countries and cities Yavor Stoychev has visited so far. More to come!"""
       }, :keywords => {
         "index" => """Yavor Stoychev, Явор Стойчев, Software Engineering, American University in Bulgaria, AUBG,
           Association of Bulgarian Leaders and Entrepreneurs, ABLE, Rochester Institute of Technology, RIT""",
