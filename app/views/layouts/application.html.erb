@@ -8,12 +8,15 @@
   <%= analytics_init if Rails.env.production? %>
   <script src="https://www.google.com/jsapi"></script>
   <link rel="icon" type="image/ico" href="http://cdn.stoychev.bg/icons/y.ico">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/blueimp-gallery.min.css" rel="stylesheet">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
     <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -25,18 +28,18 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="dl/resume/Yavor_Stoychev__Resume.pdf" target="_blank"><span class="glyphicon glyphicon-paperclip"> Resume</span></a></li>
+                        <li><a href="dl/resume/Yavor_Stoychev__Resume.pdf" target="_blank"><span class="fa fa-paperclip"> Resume</span></a></li>
                         <%= active_link_to projects_path, :wrap_tag => :li do %>
-                            <span class="glyphicon glyphicon-flash"></span> Projects
+                            <span class="fa fa-flash"></span> Projects
                         <% end %>
                         <%= active_link_to publications_path, :wrap_tag => :li do %>
-                            <span class="glyphicon glyphicon-book"></span> Publications
+                            <span class="fa fa-book"></span> Publications
                         <% end %>
                         <%= active_link_to achievements_path, :wrap_tag => :li do %>
-                            <span class="glyphicon glyphicon-certificate"></span> Achievements
+                            <span class="fa fa-certificate"></span> Achievements
                         <% end %>
                         <%= active_link_to travels_path, :wrap_tag => :li do %>
-                            <span class="glyphicon glyphicon-send"></span> Travels
+                            <span class="fa fa-send"></span> Travels
                         <% end %>
                    </ul>
                    <ul class="nav navbar-nav navbar-right">
@@ -58,9 +61,11 @@
                 </div><!--/.nav-collapse -->
             </div>
         </nav>
-        
+
         <%= yield %>
         <%= render 'layouts/gallery' %>
         <%= render 'layouts/contact_form'%>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="js/blueimp-gallery.min.js"></script>
     </body>
 </html>

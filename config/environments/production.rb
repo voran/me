@@ -77,6 +77,6 @@ Me::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-  
+
   GA.tracker = "UA-42219429-1"
 end
