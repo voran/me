@@ -24,9 +24,9 @@ module Me
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-    
+
     config.title = "Yavor Stoychev == Явор Стойчев"
-    
+
     config.meta = {
       :description => {
         "index" => """A Software Engineer and Entrepreneur from Sofia, Bulgaria and a Member of the Association of Bulgarian Leaders and Entrepreneurs""",
@@ -43,12 +43,12 @@ module Me
         "travels" => """travel, exploration, interrail, Europe, Asia, North America"""
       }
     }
-    
+
     config.email = {
       :from => "contact@stoychev.bg",
       :to => "stoychev.yavor@gmail.com"
     }
-    
+
     config.action_mailer.smtp_settings = {
       :address => "smtp.gmail.com",
       :port => 587,
@@ -56,8 +56,7 @@ module Me
       :authentication => "plain",
       :enable_starttls_auto => true,
       :user_name => "yavor.mailer@gmail.com",
-      :password => "pokemona",
-      :enable_starttls_auto => true
+      :password => "pokemona"
     }
   end
 end
