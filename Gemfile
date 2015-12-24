@@ -44,4 +44,4 @@ gem 'google-analytics-rails'
 # active links in navbar
 gem 'active_link_to'
 
-gem 'thin'
+gem 'thin', '~> 1.6'
