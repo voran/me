@@ -31,7 +31,7 @@ end
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn', '~> 5.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
@@ -43,5 +43,3 @@ gem 'google-analytics-rails'
 
 # active links in navbar
 gem 'active_link_to'
-
-gem 'thin'
