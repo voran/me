@@ -40,23 +40,16 @@
                         <%= active_link_to travels_path, :wrap_tag => :li do %>
                             <span class="fa fa-send"></span> Travels
                         <% end %>
-                        <%= active_link_to terms_path, :wrap_tag => :li do %>
-                            <span class="fa fa-info"></span> Subcontract Work
-                        <% end %>
-
                    </ul>
                    <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links<b class="caret"></b></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li class="dropdown-header">Public</li>
-                                <li class="divider"></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://blog.stoychev.bg" target="_blank">Personal Blog</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://techblog.stoychev.bg" target="_blank">Tech Blog</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://proxy.stoychev.bg" target="_blank">Web Proxy</a></li>
-                                <li role="presentation" class="dropdown-header">Authorized Users</li>
-                                <li role="presentation" class="divider"></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://gallery.stoychev.bg" target="_blank">Галерия</a></li>
+                                <li role="presentation">
+                                  <%= link_to terms_path do %>
+                                      <span class="fa fa-info"></span> Subcontract Work
+                                  <% end %>
+                                </li>
                             </ul>
                         </li>
                     </ul>
