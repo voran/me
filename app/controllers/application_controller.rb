@@ -18,7 +18,10 @@ class ApplicationController < ActionController::Base
   def travels
     respond_html
   end
-  
+
+  def terms
+    respond_html
+  end
   def contact
     ContactMailer.contact_email(contact_params).deliver
     respond_to do |format|

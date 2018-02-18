@@ -8,6 +8,7 @@
 # See http://unicorn.bogomips.org/Unicorn/Configurator.html for complete
 # documentation.
 
+working_directory "#{File.dirname(__FILE__)}/.."
 # Use at least one worker per core if you're on a dedicated server,
 # more will usually help for _short_ waits on databases/caches.
 worker_processes 4
@@ -30,7 +31,7 @@ timeout 30
 
 # feel free to point this anywhere accessible on the filesystem
 #pid "/path/to/app/shared/pids/unicorn.pid"
-pid '/tmp/me.pid'
+pid 'tmp/pids/unicorn.pid'
 
 # By default, the Unicorn logger will write to stderr.
 # Additionally, ome applications/frameworks log to stderr or stdout,
