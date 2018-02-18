@@ -43,20 +43,5 @@ module Me
         "travels" => """travel, exploration, interrail, Europe, Asia, North America"""
       }
     }
-
-    config.email = {
-      :from => "contact@stoychev.bg",
-      :to => "stoychev.yavor@gmail.com"
-    }
-
-    config.action_mailer.smtp_settings = {
-      :address => "smtp.gmail.com",
-      :port => 587,
-      :domain => "example.com",
-      :authentication => "plain",
-      :enable_starttls_auto => true,
-      :user_name => "yavor.mailer@gmail.com",
-      :password => "pokemona"
-    }
   end
 end
