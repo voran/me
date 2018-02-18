@@ -43,5 +43,9 @@ module Me
         "travels" => """travel, exploration, interrail, Europe, Asia, North America"""
       }
     }
+
+    config.email = {}
+
+    config.action_mailer.smtp_settings = {}
   end
 end
