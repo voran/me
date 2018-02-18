@@ -4,6 +4,5 @@ Me::Application.routes.draw do
   get '/publications' => 'application#publications'
   get '/achievements' => 'application#achievements'
   get '/travels' => 'application#travels'
-  post '/contact' => 'application#contact', :defaults => { :format => :json }
   get '/terms' => 'application#terms'
 end
